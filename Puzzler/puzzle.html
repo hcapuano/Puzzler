@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>1-WEB Project-Puzzle</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link href="puzzle.css" media="all" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="puzzle.js"></script>
+
+    <div id="top">
+        Puzzle
+    </div>
+
+    <br>
+
+    <img src="http://www.w3schools.com/css/img_fjords.jpg" />
+
+    <div id="container">
+        <div id="container-1" class="ui-widget-header"></div>
+        <div id="container-2" class="ui-widget-header"></div>
+        <div id="container-3" class="ui-widget-header"></div>
+        <div id="container-4" class="ui-widget-header"></div>
+        <div id="container-5" class="ui-widget-header"></div>
+        <div id="container-6" class="ui-widget-header"></div>
+        <div id="container-7" class="ui-widget-header"></div>
+        <div id="container-8" class="ui-widget-header"></div>
+        <div id="container-9" class="ui-widget-header"></div>
+    </div>
+
+    <div id="container-wrapper" ondblclick="Start()">
+
+        <div class="icone">
+            <div id="icone-2" class="ui-widget-content"></div>
+            <div id="icone-6" class="ui-widget-content"></div>
+            <div id="icone-5" class="ui-widget-content"></div>
+            <div id="icone-3" class="ui-widget-content"></div>
+            <div id="icone-4" class="ui-widget-content"></div>
+            <div id="icone-9" class="ui-widget-content"></div>
+            <div id="icone-1" class="ui-widget-content"></div>
+            <div id="icone-8" class="ui-widget-content"></div>
+            <div id="icone-7" class="ui-widget-content"></div>
+        </div>
+    </div>
+
+    <fieldset>
+        <p> Scoring </p>
+        <div id="chronotime">00:00:00</div>
+        <form name="chronoForm">
+            <input type="button" name="startstop" value="Play !" onClick="Start()" />
+            <input type="button" name="reset" value="Reset" onClick="Reset()" />
+        </form>
+        <form name="chronoscore"></form>
+    </fieldset>
+
+</body>
+</html>

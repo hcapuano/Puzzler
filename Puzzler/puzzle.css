@@ -1,0 +1,101 @@
+body{
+    background-image:url("http://img.xooimage.com/files49/8/9/c/texture_rouge-84d59d.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 100%;
+}
+#top{
+    background-color: beige;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    border-radius: 2em;
+    font-family: Impact, sans-serif;
+    text-align: center;
+    font-size: 80px;
+}
+
+.icone {
+    width: 400px;
+    height: 400px;
+    float: left;
+    display: inline-block;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+#container-wrapper {
+    border-radius: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    background-color: beige;
+    height: 650px;
+
+}
+
+#container{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: 150px;
+    right: 530px;
+}
+.ui-widget-header{
+    border: solid black;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    right: 185px;
+    top: 150px;
+}
+
+fieldset{
+    position: absolute;
+    top: 530px;
+    right: 610px;
+    height: 200px;
+    width: 287px;
+    text-align: center;
+    font-family: Impact, sans-serif;
+    font-size: 20px;
+}
+
+.icone div
+{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background: url("http://www.w3schools.com/css/img_fjords.jpg") no-repeat;
+    background-size: 300px 300px;
+}
+
+.icone #icone-1 {
+    background-position: left 0;
+}
+.icone #icone-2 {
+    background-position: center 0;
+}
+.icone #icone-3 {
+    background-position: right 0; }
+.icone #icone-4 { background-position: left center;
+}
+.icone #icone-5 {
+    background-position: center center; }
+.icone #icone-6 { background-position: right center;
+}
+.icone #icone-7 {
+    background-position: left bottom;
+}
+.icone #icone-8 {
+    background-position: center bottom;
+}
+.icone #icone-9 {
+    background-position: right bottom;
+}
